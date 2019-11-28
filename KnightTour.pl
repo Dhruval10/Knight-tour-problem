@@ -30,7 +30,7 @@ solve([state(1,4)|Before],[state(1,4)|Before]).
                
 % Define possible places where knight can move from its current state
 solve([state(S1,G1)|Before],RawAns) :-
-        div([S,G],[[1,2],[2,1],[-2,1],[-1,2],[-2,-1],[-1,-2],[1,-2],[2,-1]]),
+        div([S,G],[[2,-1],[1,-2],[-1,-2],[-2,-1],[-1,2],[-2,1],[2,1],[1,2]]),
         S2 is S1 + S,
         board(S2),
         G2 is G1 + G,             
