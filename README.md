@@ -1,4 +1,4 @@
-# Knight-tour-problem
+# Knight Tour Problem
 
 ## Homework 9
 
@@ -11,3 +11,5 @@ b. Alter the rule ordering to produce alternative solution paths. Reverse the or
 > To run the code type
 
 > knight.
+
+![path](/path.png)
